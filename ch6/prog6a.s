@@ -1,4 +1,4 @@
-/* prog6a.s from Bruth Smith book,
+/* prog6a.s from Bruce Smith book,
 	WS 12/17/21
 	perform R0 = R1 + R2*/
 
