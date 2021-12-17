@@ -9,6 +9,9 @@
 # unignore dirs
 !*/
 
+# unignore makefile
+!makefile
+
 # ignore bin
 bin/
 */bin/*
