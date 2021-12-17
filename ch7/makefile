@@ -14,8 +14,11 @@ all: $(PROGRAMS)
 
 $(PROGRAMS): % : %.o
 
-	ld -o $@ $<
+#	ld -o $@ $<  # this works
+	ld -o bin/$@ $< # WS this works, puts executables in local bin/
 
 clean:
 
-	rm -f *.o $(PROGRAMS)
+#	rm -f *.o $(PROGRAMS) # this deletes the executable also
+#	rm *.o $(PROGRAMS) # this also: PROGRAMS contains the executable names
+	rm *.o # this works
