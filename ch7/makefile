@@ -1,3 +1,5 @@
+# makefile for ch7
+
 PROGRAMS = prog7a prog7b
 
 ifneq ($(MAKECMDGOALS),)
